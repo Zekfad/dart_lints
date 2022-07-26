@@ -1,0 +1,14 @@
+name: zekfad_lints
+description: Set of lints for Flutter apps, packages, plugins and Dart apps and packages.
+version: 1.0.0
+homepage: https://github.com/zekfad/dart_lints
+repository: https://github.com/zekfad/dart_lints
+issue_tracker: https://github.com/zekfad/dart_lints/issues
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  lints: ^2.0.0
+  flutter_lints: ^2.0.1
+  # Code is not allowed in this package. Do not add any dependencies or dev_dependencies.
