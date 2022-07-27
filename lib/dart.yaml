@@ -1,3 +1,5 @@
+# Base Dart lints
+
 # For rule updates check https://dart-lang.github.io/linter/lints/index.html
 # #   - Probably will be enabled in future
 # ##  - Default rule value, added to list all not inherited rules
@@ -38,7 +40,7 @@ linter:
     always_declare_return_types: true
     always_put_control_body_on_new_line: true
     always_put_required_named_parameters_first: true
-    # always_specify_types: true
+    ## always_specify_types: false
     ## avoid_annotating_with_dynamic: false
     avoid_bool_literals_in_conditional_expressions: true
     ## avoid_catches_without_on_clauses: false
@@ -84,7 +86,7 @@ linter:
     noop_primitive_operations: true
     no_runtimeType_toString: true
     ### null_check_on_nullable_type_parameter: true
-    # omit_local_variable_types: true
+    ## omit_local_variable_types: false
     one_member_abstracts: true
     only_throw_errors: true
     package_api_docs: true

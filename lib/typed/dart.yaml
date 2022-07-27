@@ -1,0 +1,14 @@
+# Dart lints with strict requirement for always specifying types.
+
+# For rule updates check https://dart-lang.github.io/linter/lints/index.html
+# #   - Probably will be enabled in future
+# ##  - Default rule value, added to list all not inherited rules
+# ### - Emphasis on inherited rule value
+
+include: package:zekfad_lints/dart.yaml
+
+linter:
+  rules:
+    always_specify_types: true
+    ## avoid_types_on_closure_parameters: false
+    ## omit_local_variable_types: false

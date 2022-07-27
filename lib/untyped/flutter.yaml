@@ -1,0 +1,14 @@
+# Flutter lints with strict requirement for not specifying unnecessary types.
+
+# For rule updates check https://dart-lang.github.io/linter/lints/index.html
+# #   - Probably will be enabled in future
+# ##  - Default rule value, added to list all not inherited rules
+# ### - Emphasis on inherited rule value
+
+include: package:zekfad_lints/flutter.yaml
+
+linter:
+  rules:
+    ## always_specify_types: false
+    avoid_types_on_closure_parameters: true
+    omit_local_variable_types: true
