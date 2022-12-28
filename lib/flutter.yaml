@@ -26,6 +26,7 @@ linter:
     avoid_type_to_string: true
     cancel_subscriptions: true
     close_sinks: true
+    collection_methods_unrelated_type: true
     comment_references: true
     diagnostic_describe_all_properties: true
     discarded_futures: true
@@ -68,14 +69,18 @@ linter:
     combinators_ordering: true
     conditional_uri_does_not_exist: true
     curly_braces_in_flow_control_structures: false
+    dangling_library_doc_comments: true
     deprecated_consistency: true
     directives_ordering: true
     ## do_not_use_environment: false
+    enable_null_safety: true
     eol_at_end_of_file: true
     file_names: false
     ## flutter_style_todos: false
+    # implicit_call_tearoffs: true # (experimental)
     join_return_with_assignment: true
     ## leading_newlines_in_multiline_strings: false
+    library_annotations: true
     library_names: false
     library_prefixes: false
     ### library_private_types_in_public_api: true
@@ -123,11 +128,13 @@ linter:
     ## unnecessary_final: false
     unnecessary_lambdas: true
     ### unnecessary_late: true
+    unnecessary_library_directive: true
     ### unnecessary_null_aware_assignments: true
     unnecessary_null_aware_operator_on_extension_on_nullable: true
     unnecessary_parenthesis: true
     unnecessary_raw_strings: true
     unnecessary_to_list_in_spreads: true
+    unreachable_from_main: true # experimental
     use_colored_box: true
     use_decorated_box: true
     use_enums: true # experimental
@@ -138,6 +145,7 @@ linter:
     use_raw_strings: true
     use_setters_to_change_properties: true
     use_string_buffers: true
+    use_string_in_part_of_directives: true
     use_super_parameters: true # experimental
     use_test_throws_matchers: true
     use_to_and_as_if_applicable: true
