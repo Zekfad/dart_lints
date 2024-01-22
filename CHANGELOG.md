@@ -1,3 +1,35 @@
+## 2.0.0
+
+> For linter [1.30.0](https://pub.dev/packages/linter/changelog#1300)
+
+> Requires Dart 3.0
+
+* **BREAKING**: Changed files structure:
+
+  This change makes it easier to setup new project, giving preference to omit
+  unnecessary types where possible.
+
+  * Base lints now in `base` folder.
+  * `recommended.yaml` points to `untyped/dart.yaml`.
+  * `flutter.yaml` points to `untyped/flutter.yaml`.
+
+* Enabled `deprecated_member_use_from_same_package`
+* Removed no longer available `invariant_booleans`
+* Enabled `implicit_reopen` (experimental)
+* Enabled `invalid_case_patterns` (experimental)
+* Enabled `no_self_assignments`
+* Enabled `no_wildcard_variable_uses`
+* Enabled `prefer_void_to_null`
+* Enabled `unsafe_html`
+* Enabled `annotate_redeclares` (experimental)
+* Removed deprecated `avoid_returning_null`
+* Removed no longer available `enable_null_safety`
+* **BREAKING**: Enabled `file_names`
+* Enabled `matching_super_parameters`
+* Disabled `no_leading_underscores_for_library_prefixes`
+* Enabled `no_literal_bool_comparisons`
+* Enabled `unnecessary_breaks`
+
 ## 1.2.0
 
 > For linter [1.30.0](https://pub.dev/packages/linter/changelog#1300)

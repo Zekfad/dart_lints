@@ -16,13 +16,24 @@ This package is built on top of Flutter's `flutter.yaml` set of lints from
 
 ## Configs
 
-* `package:zekfad_lints/dart.yaml` - Base config for **Dart** projects.
+Drop-in replacements for Flutter's or Dart's default config (preference is to
+use inferred types where possible):
+
+* `package:zekfad_lints/recommended.yaml` - Same as 
+  `package:zekfad_lints/untyped/dart.yaml`.
+* `package:zekfad_lints/flutter.yaml` - Same as 
+  `package:zekfad_lints/untyped/flutter.yaml`.
+
+You may use additional configs for fine tuning to your preference:
+
+* `package:zekfad_lints/base/dart.yaml` - Base config for **Dart** projects.
 * `package:zekfad_lints/typed/dart.yaml` - Config for **Dart** projects with
   strict requirement for **always specifying types**.
 * `package:zekfad_lints/untyped/dart.yaml` - Config for **Dart** projects with
-  strict requirement for **not specifying unnecessary types**.
-* `package:zekfad_lints/flutter.yaml` - Base config for **Flutter** projects.
-* `package:zekfad_lints/typed/flutter.yaml` - Config for Flutter projects with
+  strict requirement for **not specifying unnecessary types**
+
+* `package:zekfad_lints/base/flutter.yaml` - Base config for **Flutter** projects.
+* `package:zekfad_lints/typed/flutter.yaml` - Config for **Flutter** projects with
   strict requirement for **always specifying types**.
 * `package:zekfad_lints/untyped/flutter.yaml` - Config for **Flutter** projects
   with strict requirement for **not specifying unnecessary types**.
