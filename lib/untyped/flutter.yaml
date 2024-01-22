@@ -5,7 +5,7 @@
 # ##  - Default rule value, added to list all not inherited rules
 # ### - Emphasis on inherited rule value
 
-include: package:zekfad_lints/flutter.yaml
+include: package:zekfad_lints/base/flutter.yaml
 
 linter:
   rules:

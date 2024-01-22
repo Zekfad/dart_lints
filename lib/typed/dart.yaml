@@ -2,10 +2,10 @@
 
 # For rule updates check https://dart-lang.github.io/linter/lints/index.html
 # #   - Probably will be enabled in future
-# ##  - Default rule value, added to list all not inherited rules
-# ### - Emphasis on inherited rule value
+# ##  - Default disabled rule
+# ### - Inherited enabled rule value
 
-include: package:zekfad_lints/dart.yaml
+include: package:zekfad_lints/base/dart.yaml
 
 linter:
   rules:
