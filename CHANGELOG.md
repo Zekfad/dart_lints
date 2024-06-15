@@ -1,3 +1,18 @@
+## 2.1.0
+
+> For linter [1.30.0](https://pub.dev/packages/linter/changelog#1300)
+
+> Requires Dart 3.1
+
+* Updated `lints` to `^4
+`
+* Enabled `library_names`
+* Enabled `library_prefixes`
+* `package_prefixed_library_names` now explicitly enabled (inherited value has
+  been changed)
+* `library_annotations` now inherited (stayed enabled) 
+* `no_wildcard_variable_uses` now inherited (stayed enabled)
+
 ## 2.0.0
 
 > For linter [1.30.0](https://pub.dev/packages/linter/changelog#1300)
