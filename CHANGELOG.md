@@ -1,3 +1,24 @@
+## 2.2.0
+
+> For linter [3.6.0](https://github.com/dart-lang/sdk/blob/main/pkg/linter/CHANGELOG.md#360)
+
+> Requires Dart 3.6
+
+* Enabled `missing_code_block_language_in_doc_comment`
+* Enabled `avoid_futureor_void` (experimental)
+* Enabled `prefer_const_constructors` in flutter config
+* Enabled `prefer_const_declarations` in flutter config
+* Enabled `prefer_const_literals_to_create_immutables` in flutter config
+* Enabled `use_truncating_division`
+* Inherited enabled `invalid_runtime_check_with_js_interop_types`
+* Inherited enabled `unnecessary_library_name`
+* Inherited disabled `avoid_null_checks_in_equality_operators`
+* Inherited enabled `unintended_html_in_doc_comment`
+* Enabled `omit_obvious_local_variable_types` for untyped config.
+* Enabled `omit_obvious_property_types` for untyped config.
+* Enabled `specify_nonobvious_local_variable_types` for typed config.
+* Enabled `specify_nonobvious_property_types` for typed config.
+
 ## 2.1.0
 
 > For linter [1.30.0](https://pub.dev/packages/linter/changelog#1300)

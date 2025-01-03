@@ -12,3 +12,7 @@ linter:
     ## always_specify_types: false
     avoid_types_on_closure_parameters: true
     omit_local_variable_types: true
+    omit_obvious_local_variable_types: true # experimental
+    omit_obvious_property_types: false # experimental to be released
+    ## specify_nonobvious_local_variable_types: false # experimental
+    ## specify_nonobvious_property_types: false # experimental to be released
