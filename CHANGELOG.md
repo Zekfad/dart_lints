@@ -1,3 +1,21 @@
+## 2.3.0
+
+* Update `package:lints` to `>=5.0.0 <7.0.0` to support version 6.
+
+> For linter [3.7.0](https://github.com/dart-lang/sdk/blob/main/pkg/linter/CHANGELOG.md#370)
+
+* Enabled `avoid_dynamic_calls`
+* Enabled `strict_top_level_inference`
+* Enabled `unnecessary_async` (experimental)
+* Enabled `unnecessary_underscores`
+* Enabled `unsafe_variance` (experimental)
+* Removed no longer available `package_api_docs`
+
+> For future version of linter [3.8.0](https://github.com/dart-lang/sdk/blob/main/pkg/linter/CHANGELOG.md#380)
+
+* Enabled `use_null_aware_elements`
+* Enabled `unnecessary_ignore` (experimental)
+
 ## 2.2.0
 
 > For linter [3.6.0](https://github.com/dart-lang/sdk/blob/main/pkg/linter/CHANGELOG.md#360)
@@ -14,10 +32,10 @@
 * Inherited enabled `unnecessary_library_name`
 * Inherited disabled `avoid_null_checks_in_equality_operators`
 * Inherited enabled `unintended_html_in_doc_comment`
-* Enabled `omit_obvious_local_variable_types` for untyped config.
-* Enabled `omit_obvious_property_types` for untyped config.
-* Enabled `specify_nonobvious_local_variable_types` for typed config.
-* Enabled `specify_nonobvious_property_types` for typed config.
+* Enabled `omit_obvious_local_variable_types` for untyped config
+* Enabled `omit_obvious_property_types` for untyped config
+* Enabled `specify_nonobvious_local_variable_types` for typed config
+* Enabled `specify_nonobvious_property_types` for typed config
 
 ## 2.1.0
 
@@ -25,8 +43,7 @@
 
 > Requires Dart 3.1
 
-* Updated `lints` to `^4
-`
+* Updated `package:lints` to `^4`
 * Enabled `library_names`
 * Enabled `library_prefixes`
 * `package_prefixed_library_names` now explicitly enabled (inherited value has
@@ -43,11 +60,11 @@
 * **BREAKING**: Changed files structure:
 
   This change makes it easier to setup new project, giving preference to omit
-  unnecessary types where possible.
+  unnecessary types where possible
 
-  * Base lints now in `base` folder.
-  * `recommended.yaml` points to `untyped/dart.yaml`.
-  * `flutter.yaml` points to `untyped/flutter.yaml`.
+  * Base lints now in `base` folder
+  * `recommended.yaml` points to `untyped/dart.yaml`
+  * `flutter.yaml` points to `untyped/flutter.yaml`
 
 * Enabled `deprecated_member_use_from_same_package`
 * Removed no longer available `invariant_booleans`

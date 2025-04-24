@@ -1,6 +1,6 @@
 [![pub package](https://img.shields.io/pub/v/zekfad_lints.svg)](https://pub.dev/packages/zekfad_lints)
 
-This package contains set of lints for [Flutter](https://flutter.dev/) and 
+This package contains a set of lints for [Flutter](https://flutter.dev/) and 
 [Dart](https://dart.dev/) apps, packages, plugins.
 
 This package is built on top of Flutter's `flutter.yaml` set of lints from
@@ -17,7 +17,7 @@ This package is built on top of Flutter's `flutter.yaml` set of lints from
 ## Configs
 
 Drop-in replacements for Flutter's or Dart's default config (preference is given
-to usage of inferred types where it's possible):
+to the usage of inferred types where it's possible):
 
 * `package:zekfad_lints/recommended.yaml` - Same as 
   `package:zekfad_lints/untyped/dart.yaml`.
@@ -37,3 +37,6 @@ You may use additional configs for fine tuning to your preference:
   strict requirement for **always specifying types**.
 * `package:zekfad_lints/untyped/flutter.yaml` - Config for **Flutter** projects
   with strict requirement for **omitting unnecessary types**.
+
+* `package:zekfad_lints/lib.yaml` - Config with some rules reverted to core
+  lints, useful for public for libraries.
