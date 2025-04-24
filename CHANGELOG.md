@@ -1,3 +1,9 @@
+## 2.3.1
+
+* Temporally comment unreleased rules to prevent include warning.
+  * Commented out `use_null_aware_elements`
+  * Commented out `unnecessary_ignore` (experimental)
+
 ## 2.3.0
 
 * Update `package:lints` to `>=5.0.0 <7.0.0` to support version 6.

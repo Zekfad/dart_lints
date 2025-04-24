@@ -216,7 +216,7 @@ linter:
     ### unnecessary_constructor_name: true
     ## unnecessary_final: false
     ### unnecessary_getters_setters: true
-    unnecessary_ignore: true # experimental
+    # unnecessary_ignore: true # unreleased experimental
     unnecessary_lambdas: true
     ### unnecessary_late: true
     unnecessary_library_directive: true
@@ -251,7 +251,7 @@ linter:
     ### use_key_in_widget_constructors: true
     use_late_for_private_fields_and_variables: true # experimental
     use_named_constants: true
-    use_null_aware_elements: true
+    # use_null_aware_elements: true # unreleased
     use_raw_strings: true
     ### use_rethrow_when_possible: true
     use_setters_to_change_properties: true
